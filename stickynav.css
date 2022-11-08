@@ -1,0 +1,142 @@
+* {box-sizing: border-box;}
+
+body{ margin:0;
+      height: 100vh;}
+
+ .wrapper{background-color: #f8edeb;
+          display:flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+           }
+  .wrapper>section{min-height: 100vh;
+           padding: 10px;
+           background-size: cover;
+           background-position: center center;
+           background-repeat:no-repeat;}           
+
+   .wrapper > section article{
+           background-color: #edede9;
+           padding: 10px;
+           margin: 10px 15px;
+           border-radius: 15px;
+           min-height: 600px;}
+
+  #navbar{background-color: #f8edeb;
+          position: fixed;
+          top:0;
+          left:0;
+          width:100%;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+        }
+ nav{background-color: #f8edeb;}       
+
+.links { padding: 20px;}
+   .links a{font-size: 1.7em;
+          text-align: center;}
+
+ .social{padding-top:20px;
+         padding-right:20px;}
+
+.social a{color:#fe6272;
+        }
+nav a{text-decoration: none;
+      color:black;
+       margin:20px 10px;
+       }    
+       .social a:hover{color:#e12b3d ;}
+ header{background: url(Cross-Body-Bags_360x.webp) no-repeat center center fixed;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;} 
+        
+ header>div{background-color: #edede9;
+             width:50%; 
+             height: 200px;
+             border-radius: 10px;
+             text-align: center;
+            }
+  #home{background-image: url(Collection-HandBags_360x.webp);
+        display: flex;
+        align-items: center;
+        justify-content: center; }    
+
+  
+  #about{background-image: url(008_900x.webp);
+    display: flex;
+    align-items: center;
+    justify-content: center; }      
+
+
+   
+   #products{background-image: url(Backpacks_360x.webp);
+    display: flex;
+    align-items: center;
+    justify-content: center; }   
+
+  
+
+   #products ul{ display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 flex-wrap: wrap;
+                 text-align: center;
+                 margin: auto;
+                 padding: 0;
+                 list-style-type: none;}
+    ul li{background-color: white;
+          margin: 10px;
+          border:2px solid #000;
+          }  
+    
+    ul li img{max-width: 35vw;
+              box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
+              margin: 10px;}
+
+    #contact>article {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;}
+
+    form { background-color: #e07a5f;
+          margin:10px;
+          padding:2rem;
+          border-radius: 10px;
+          max-width: 40vw;}
+
+    h2{text-transform: uppercase;
+       font-size: 3em;}
+
+    form >.row{padding:10px;}
+     .row > input {padding: 5px;
+                  border: 1px solid white;
+                  border-radius: 5px;
+                  width:100%;}           
+     .row >label{display: block;
+                 font-size: 1.2em;}
+
+      .row > .submit{padding: 10px;
+                     border: 1px solid #c0c0c0 ;
+                     background-color: #c0c0c0;
+                     font-size: 1.3em;
+                    margin-top:20px}  
+       .row > .submit:hover{background-color: gray;
+                        color: white;}                      
+     footer{padding:30px;
+            background-color: #c0c0c0;
+            color: black;
+            font-size: 1.2em;
+            text-align: center;
+            line-height: 20px;}     
+            
+         @media (max-width:700px) {
+            #navbar{font-size: 10px;}
+             header > div{width: 100%;
+                          font-size: 14px;}
+             ul li img{max-width:100%;}             
+            form{max-width:100%}
+            
+         }   
